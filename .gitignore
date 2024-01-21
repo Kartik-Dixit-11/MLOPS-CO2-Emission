@@ -1,8 +1,7 @@
 .dvcignore
 /mlruns
 /log
-./notebooks/*
-artifacts/*
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
