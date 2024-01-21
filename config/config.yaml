@@ -1,0 +1,14 @@
+artifacts_root: artifacts
+
+data_ingestion:
+        path: Data/co2.csv
+        create: artifacts/train_test
+
+Model_Prepartion:
+        path: model/
+        train_path: artifacts/train_test/training.csv
+        test_path: artifacts/train_test/testing.csv
+        MLFLOW_URI: https://dagshub.com/Kartik-Dixit-11/CO2-EMISSION.mlflow
+
+
+
